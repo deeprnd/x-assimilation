@@ -1,0 +1,13 @@
+name: x-assimilation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+- conda-forge::python=3.12.8
+- pydantic
+- python-dotenv
+- requests
+- tweepy
+- dotenv
+- pip
+- pytest
