@@ -5,7 +5,7 @@ from .llm_invoker import LLMInvoker
 class OllamaInvoker(LLMInvoker):
     """Invoker for Ollama API responses."""
     
-    def __init__(self, api_url: str, model):
+    def __init__(self, api_url: str, model: str):
         """
         Initialize OllamaInvoker with API URL and model type.
         :param api_url: The Ollama API endpoint (e.g., http://localhost:11434/api/generate)
